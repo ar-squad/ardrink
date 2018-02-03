@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Feb 03 11:07:07 ICT 2018
+#Sat Feb 03 14:49:36 ICT 2018
 76.base=D\:\\newme\\ARDrink\\Temp\\gradleOut\\build\\intermediates\\transforms\\stripDebugSymbol\\release\\folders\\2000\\1f\\main
 5.base=D\:\\newme\\ARDrink\\Temp\\gradleOut\\build\\intermediates\\assets\\release
 42.base=D\:\\newme\\ARDrink\\Temp\\gradleOut\\build\\intermediates\\transforms\\stripDebugSymbol\\release\\folders\\2000\\1f\\main

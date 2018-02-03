@@ -323,7 +323,11 @@
     <Compile Include="Assets\RESTClient-master\model\NestedResults.cs" />
     <Compile Include="Assets\RESTClient-master\RestClient.cs" />
     <Compile Include="Assets\scripts\AppServiceController.cs" />
+    <Compile Include="Assets\scripts\BillInfo.cs" />
+    <Compile Include="Assets\scripts\ButtonInfo.cs" />
+    <Compile Include="Assets\scripts\Initializer.cs" />
     <Compile Include="Assets\scripts\OrderModel.cs" />
+    <Compile Include="Assets\scripts\Record.cs" />
     <Compile Include="Assets\scripts\ShowHide.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

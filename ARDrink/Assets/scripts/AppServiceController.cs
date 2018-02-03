@@ -13,28 +13,30 @@ public class AppServiceController : MonoBehaviour {
     private AppServiceClient _client;
     private AppServiceTable<OrderModel> _model;
     private OrderModel orderModel;
+    public GameObject orderController;
     // Use this for initialization
     void Start () {
         _client = new AppServiceClient(_appUrl);
-        _model = _client.GetTable<OrderModel>("draft");
+        _model = _client.GetTable<OrderModel>("bill_info");
+        orderModel = orderController.GetComponent<BillInfo>().OrderModel;
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+
+        orderModel = orderController.GetComponent<BillInfo>().OrderModel;
+    }
 
     public void Insert()
     {
-        orderModel = new OrderModel();
         orderModel.acc_id = "000001";
         orderModel.order_id = "ABC001";
         orderModel.table_id = 3;
-        orderModel.cup_size = 3;
-        orderModel.drink_id = 0;//matcha
-        orderModel.drink_quan = 2;//2 matchas
-        orderModel.top_id = 0;//tran chau
-        orderModel.top_quan = 5;//5 tran chau
+        //orderModel.cup_size = 3;
+        //orderModel.drink_id = 0;//matcha
+        //orderModel.drink_quan = 2;//2 matchas
+        //orderModel.top_id = 0;//tran chau
+        //orderModel.top_quan = 5;//5 tran chau
         StartCoroutine(_model.Insert<OrderModel>(orderModel, OnInsertCompleted));
         
     }
