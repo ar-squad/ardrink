@@ -1,0 +1,7 @@
+sceneSetups:
+- path: Assets/scenes/choose_order_types.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/scenes/combo.unity
+  isLoaded: 1
+  isActive: 1
