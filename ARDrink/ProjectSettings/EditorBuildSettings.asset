@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/choose_order_types.unity
     guid: 7467f23b1001d50449a02901740b23cf
   - enabled: 1

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudio\.android\build-cache\633b5815042a9fbcd91245f21f2a0df6f44b1c31\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e29373b760f2999cd878625efe4641edd156a3d0">
+        <dex dex="D:\newme\ARDrink\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_48a9ff08b9c77c007cf9d99dff5e138d2947fa8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\newme\ARDrink\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="997bed8c5290bdbae5c8767ba09af501f19e1c08">
+        <dex dex="D:\newme\ARDrink\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_3cf37631e7ce3e94da3386c444b400cd7fb5a8b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudio\.android\build-cache\633b5815042a9fbcd91245f21f2a0df6f44b1c31\output\jars\libs\VuforiaUnityPlayer.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1e5c98f1d2f1973f9a08b7849f319bcb135fe8c3">
+        <dex dex="D:\newme\ARDrink\Temp\gradleOut\build\intermediates\pre-dexed\release\VuforiaUnityPlayer_82d2442c22dbfd68a4c8d994da8ebf6584c7376b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudio\.android\build-cache\633b5815042a9fbcd91245f21f2a0df6f44b1c31\output\jars\libs\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="53094572566d88f826439518bd3ff774b3ed36cb">
+        <dex dex="D:\newme\ARDrink\Temp\gradleOut\build\intermediates\pre-dexed\release\Vuforia_10f5e16d1185b7369289da49fe3e079aabbd0acd.jar" />
+    </item>
+
+</items>
